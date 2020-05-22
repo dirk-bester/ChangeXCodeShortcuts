@@ -14,5 +14,5 @@ If I am delusional, please inform me.
 * Or keep your improvements to yourself! Whatevs. Just mutter "My Precioussss ..." while you are at it
 * Maybe it should be a plugin or something instead. This was my least resistance effort.
 
-* It could read a custom file that you edit and automatically apply it. But I am too lazy to do XML wrangling in Swift eright now. This may change now that I am doing my first reapply cycle after an update.
+* It could read a custom file that you edit and automatically apply it. But I am too lazy to do XML wrangling in Swift right now. This may change now that I am doing my first reapply cycle after an update.
 * It could go add the keybindings you like in the different file that tracks keybindings. I am certainly too lazy to have done more than investigate what and where.
