@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6192470B24787AE70082221C /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6192470A24787AE70082221C /* License.txt */; };
+		6192470D24787ECA0082221C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6192470C24787ECA0082221C /* README.md */; };
 		61F598E2245B682400508ED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F598E1245B682400508ED2 /* AppDelegate.swift */; };
 		61F598E4245B682400508ED2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F598E3245B682400508ED2 /* ContentView.swift */; };
 		61F598E6245B682500508ED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61F598E5245B682500508ED2 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6192470A24787AE70082221C /* License.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		6192470C24787ECA0082221C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		61F598DE245B682400508ED2 /* ChangeXCodeShortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeXCodeShortcuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61F598E1245B682400508ED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61F598E3245B682400508ED2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -39,6 +43,8 @@
 		61F598D5245B682400508ED2 = {
 			isa = PBXGroup;
 			children = (
+				6192470A24787AE70082221C /* License.txt */,
+				6192470C24787ECA0082221C /* README.md */,
 				61F598E0245B682400508ED2 /* ChangeXCodeShortcuts */,
 				61F598DF245B682400508ED2 /* Products */,
 			);
@@ -101,7 +107,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
-				LastUpgradeCheck = 1140;
+				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Dirk Bester";
 				TargetAttributes = {
 					61F598DD245B682400508ED2 = {
@@ -132,7 +138,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6192470B24787AE70082221C /* License.txt in Resources */,
 				61F598EC245B682500508ED2 /* Main.storyboard in Resources */,
+				6192470D24787ECA0082221C /* README.md in Resources */,
 				61F598E9245B682500508ED2 /* Preview Assets.xcassets in Resources */,
 				61F598E6245B682500508ED2 /* Assets.xcassets in Resources */,
 			);
@@ -282,10 +290,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChangeXCodeShortcuts/ChangeXCodeShortcuts.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ChangeXCodeShortcuts/Preview Content\"";
-				DEVELOPMENT_TEAM = YMAF36MU4A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ChangeXCodeShortcuts/Info.plist;
@@ -305,10 +314,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = ChangeXCodeShortcuts/ChangeXCodeShortcuts.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"ChangeXCodeShortcuts/Preview Content\"";
-				DEVELOPMENT_TEAM = YMAF36MU4A;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ChangeXCodeShortcuts/Info.plist;
